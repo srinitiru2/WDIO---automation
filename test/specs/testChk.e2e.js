@@ -47,7 +47,7 @@ beforeEach(()=>{
         await expect(chkBoxesPage.checkbox1).not.toBeChecked()
 
          
-        browser.pause(10000)            
+        browser.pause(90000)            
     })
 })
  
