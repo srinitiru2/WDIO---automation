@@ -3,4 +3,5 @@ node_modules/
 allure-report/
 junit-reports/
 allure-results/
+history.txt
 
