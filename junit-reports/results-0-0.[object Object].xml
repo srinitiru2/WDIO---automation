@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="1" failures="0" errors="0" skipped="0">
+  <testsuite name="My Check Boxes Page" timestamp="2025-03-20T18:55:30" time="0.958" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="My Check Boxes Page"/>
+      <property name="capabilities" value="chrome.134_0_6998_89.windows"/>
+      <property name="file" value="file:///C:/Users/stiru/WDIO%20-%20automation/test/specs/testChk.e2e.js"/>
+    </properties>
+    <testcase classname="chrome.134_0_6998_89.windows.My_Check_Boxes_Page" name="Check box should be selected" time="0.956">
+      <system-out><![CDATA[
+COMMAND: GET /session/13019b7d783af8c1b3fb3cdbfcc31a37/url - {}
+RESULT: {}
+COMMAND: POST /session/13019b7d783af8c1b3fb3cdbfcc31a37/element - {"using":"css selector","value":"input[type='checkbox']:first-child"}
+RESULT: {"using":"css selector","value":"input[type='checkbox']:first-child"}
+COMMAND: POST /session/13019b7d783af8c1b3fb3cdbfcc31a37/element/f.9B2D6012F18902CCE43F4532B5DD7041.d.2A9DD3037A4C222C2B83BBE5EC54B281.e.5/click - {}
+RESULT: {}
+COMMAND: GET /session/13019b7d783af8c1b3fb3cdbfcc31a37/element/f.9B2D6012F18902CCE43F4532B5DD7041.d.2A9DD3037A4C222C2B83BBE5EC54B281.e.5/selected - {}
+RESULT: {}
+COMMAND: POST /session/13019b7d783af8c1b3fb3cdbfcc31a37/element/f.9B2D6012F18902CCE43F4532B5DD7041.d.2A9DD3037A4C222C2B83BBE5EC54B281.e.5/click - {}
+RESULT: {}
+COMMAND: GET /session/13019b7d783af8c1b3fb3cdbfcc31a37/element/f.9B2D6012F18902CCE43F4532B5DD7041.d.2A9DD3037A4C222C2B83BBE5EC54B281.e.5/selected - {}
+RESULT: {}
+COMMAND: POST /session/13019b7d783af8c1b3fb3cdbfcc31a37/element/f.9B2D6012F18902CCE43F4532B5DD7041.d.2A9DD3037A4C222C2B83BBE5EC54B281.e.6/click - {}
+RESULT: {}
+COMMAND: GET /session/13019b7d783af8c1b3fb3cdbfcc31a37/element/f.9B2D6012F18902CCE43F4532B5DD7041.d.2A9DD3037A4C222C2B83BBE5EC54B281.e.6/selected - {}
+RESULT: {}
+COMMAND: POST /session/13019b7d783af8c1b3fb3cdbfcc31a37/element/f.9B2D6012F18902CCE43F4532B5DD7041.d.2A9DD3037A4C222C2B83BBE5EC54B281.e.6/click - {}
+RESULT: {}
+COMMAND: GET /session/13019b7d783af8c1b3fb3cdbfcc31a37/element/f.9B2D6012F18902CCE43F4532B5DD7041.d.2A9DD3037A4C222C2B83BBE5EC54B281.e.6/selected - {}
+RESULT: {}
+COMMAND: GET /session/13019b7d783af8c1b3fb3cdbfcc31a37/screenshot - {}
+RESULT: {}
+COMMAND: DELETE /session/13019b7d783af8c1b3fb3cdbfcc31a37 - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

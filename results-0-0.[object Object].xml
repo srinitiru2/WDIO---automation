@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="1" failures="0" errors="0" skipped="0">
+  <testsuite name="My Check Boxes Page" timestamp="2025-03-20T18:10:08" time="0.936" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="My Check Boxes Page"/>
+      <property name="capabilities" value="chrome.134_0_6998_89.windows"/>
+      <property name="file" value="file:///C:/Users/stiru/WDIO%20-%20automation/test/specs/testChk.e2e.js"/>
+    </properties>
+    <testcase classname="chrome.134_0_6998_89.windows.My_Check_Boxes_Page" name="Check box should be selected" time="0.936">
+      <system-out><![CDATA[
+COMMAND: GET /session/3a8ea99647922ed1cdce5b944abdb0ab/url - {}
+RESULT: {}
+COMMAND: POST /session/3a8ea99647922ed1cdce5b944abdb0ab/element - {"using":"css selector","value":"input[type='checkbox']:first-child"}
+RESULT: {"using":"css selector","value":"input[type='checkbox']:first-child"}
+COMMAND: POST /session/3a8ea99647922ed1cdce5b944abdb0ab/element/f.599D3DB5A5804BF6B623D10EBA11C9D2.d.99CDDB0CE3B3AF9472E2824CA69BC4E8.e.5/click - {}
+RESULT: {}
+COMMAND: GET /session/3a8ea99647922ed1cdce5b944abdb0ab/element/f.599D3DB5A5804BF6B623D10EBA11C9D2.d.99CDDB0CE3B3AF9472E2824CA69BC4E8.e.5/selected - {}
+RESULT: {}
+COMMAND: POST /session/3a8ea99647922ed1cdce5b944abdb0ab/element/f.599D3DB5A5804BF6B623D10EBA11C9D2.d.99CDDB0CE3B3AF9472E2824CA69BC4E8.e.5/click - {}
+RESULT: {}
+COMMAND: GET /session/3a8ea99647922ed1cdce5b944abdb0ab/element/f.599D3DB5A5804BF6B623D10EBA11C9D2.d.99CDDB0CE3B3AF9472E2824CA69BC4E8.e.5/selected - {}
+RESULT: {}
+COMMAND: POST /session/3a8ea99647922ed1cdce5b944abdb0ab/element/f.599D3DB5A5804BF6B623D10EBA11C9D2.d.99CDDB0CE3B3AF9472E2824CA69BC4E8.e.6/click - {}
+RESULT: {}
+COMMAND: GET /session/3a8ea99647922ed1cdce5b944abdb0ab/element/f.599D3DB5A5804BF6B623D10EBA11C9D2.d.99CDDB0CE3B3AF9472E2824CA69BC4E8.e.6/selected - {}
+RESULT: {}
+COMMAND: POST /session/3a8ea99647922ed1cdce5b944abdb0ab/element/f.599D3DB5A5804BF6B623D10EBA11C9D2.d.99CDDB0CE3B3AF9472E2824CA69BC4E8.e.6/click - {}
+RESULT: {}
+COMMAND: GET /session/3a8ea99647922ed1cdce5b944abdb0ab/element/f.599D3DB5A5804BF6B623D10EBA11C9D2.d.99CDDB0CE3B3AF9472E2824CA69BC4E8.e.6/selected - {}
+RESULT: {}
+COMMAND: GET /session/3a8ea99647922ed1cdce5b944abdb0ab/screenshot - {}
+RESULT: {}
+COMMAND: DELETE /session/3a8ea99647922ed1cdce5b944abdb0ab - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>
