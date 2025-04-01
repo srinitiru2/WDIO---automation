@@ -135,21 +135,21 @@ export const config = {
     // see also: https://webdriver.io/docs/dot-reporter
     reporters: [
         
-     /*  
+     
      ['allure', {
         outputDir: 'allure-results',
         disableWebdriverStepsReporting: true,
         disableWebdriverScreenshotsReporting: false,
     }]
-    */
-    ['junit', {
-        outputDir: `junit-reports`,
-        outputFileFormat: function(options) { // optional
 
-            //return `results-${new Date().getTime()}.xml` \\ to have unique reports
-            return `results-${options.cid}.${options.capabilities}.xml`
-        }
-    }]
+    // ['junit', {
+    //     outputDir: `junit-reports`,
+    //     outputFileFormat: function(options) { // optional
+
+    //         //return `results-${new Date().getTime()}.xml` \\ to have unique reports
+    //         return `results-${options.cid}.${options.capabilities}.xml`
+    //     }
+    // }]
 
 
 ],
