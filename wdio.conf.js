@@ -139,7 +139,7 @@ export const config = {
      ['allure', {
         outputDir: 'allure-results',
         disableWebdriverStepsReporting: true,
-        disableWebdriverScreenshotsReporting: false,
+        disableWebdriverScreenshotsReporting: true,
     }]
 
     // ['junit', {
