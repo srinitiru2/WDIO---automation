@@ -261,11 +261,11 @@ export const config = {
      */
     // afterTest: function(test, context, { error, result, duration, passed, retries }) {
     // },
-    afterTest: async function(test, context, { error, result, duration, passed, retries }) {
+    // afterTest: async function(test, context, { error, result, duration, passed, retries }) {
         
-            await browser.takeScreenshot();
+    //         await browser.takeScreenshot();
        
-    }
+    // }
 
     /**
      * Hook that gets executed after the suite has ended
